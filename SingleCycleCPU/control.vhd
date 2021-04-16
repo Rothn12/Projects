@@ -1,7 +1,7 @@
 -- ********************************************************
 -- * project: control
 -- * filename: control.vhd
--- * author: << insert your name here >>
+-- * author: rothn@msoe.edu
 -- * date: MSOE Spring Quarter 2020
 -- * provides: a control circuit for the ARMv4 ISA
 -- * instructions implemented in the CE1921
