@@ -1,0 +1,6 @@
+While on the VEX U team, I fixed the open source rosserial library to allow serial communication over the RS485 ports on the V5 brain. 
+
+Pull request:
+https://github.com/ros-drivers/rosserial/pull/580
+If that finally got merged, it'll be in the noetic-devel branch:
+https://github.com/ros-drivers/rosserial
