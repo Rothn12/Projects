@@ -20,3 +20,5 @@ The VEX V5 brain will send a byte over a RS485 port, this then is converted to U
 
 # Takeaways 
 My main takeaway was the PCB design process. Asher and I were lucky enough to be guided through this process by Andrew. He gave us advice on component choice, and capacitor placement as well as reasoning for those choices. It strengthened my knowledge of circuit design and creative thinking when it comes to creating custom PCBs to save money.
+
+- [MSOE VEX PCB Repo](https://github.com/msoe-vex/pcb-design/tree/It-is-wired)
