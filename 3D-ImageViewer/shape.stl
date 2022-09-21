@@ -1,0 +1,26 @@
+solid Shape
+ facet normal 0.00441668 -0.0110034 -0.99993
+  outer loop
+  vertex 3.44187 5.90737 22.4502
+  vertex 3.45978 5.88253 22.4505
+  vertex 3.20279 5.6495 22.4519
+  endloop
+ endfacet
+
+ facet normal -0.840637 -0.386028 -0.379884
+  outer loop
+  vertex 0.546978 18.4458 9.70707
+  vertex 0.231294 19.1332 9.70707
+  vertex 0.517646 19.2217 8.98353
+  endloop
+ endfacet
+
+ facet normal -0.840637 -0.386028 -0.379884
+  outer loop
+  vertex 0.546978 18.4458 9.70707
+  vertex 0.231294 19.1332 9.70707
+  vertex 0.517646 19.2217 8.98353
+  endloop
+ endfacet
+
+endsolid Shape
