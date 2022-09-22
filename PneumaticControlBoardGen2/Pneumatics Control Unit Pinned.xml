@@ -1,0 +1,2802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)\Pneumatics Control Unit Pinned.kicad_sch</source>
+    <date>19/07/2022 4:27:32 pm</date>
+    <tool>Eeschema (6.99.0-1698-gc3bed8f6ee)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Pneumatics Controller Pinned</title>
+        <company>MSOE Raider Robotics</company>
+        <rev>1.0</rev>
+        <date>2022-04-06</date>
+        <source>Pneumatics Control Unit Pinned.kicad_sch</source>
+        <comment number="1" value="2022 Senior Design Team"/>
+        <comment number="2" value="Adapted Penumatics Control Unit V1.1 To Teensy 4.1 Pinout"/>
+        <comment number="3" value="Designed By: Julian Singkham"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C0">
+      <value>1u</value>
+      <footprint>1 uF Cap:C1608X7R1C105K080AC</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.13</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395</field>
+      </fields>
+      <libsource lib="1 uF Cap" part="C1608X7R1C105K080AC" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395"/>
+      <property name="Price" value="$0.13"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0b593dc-4dfa-44bc-b395-79988370594d</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>1 uF Cap:C1608X7R1C105K080AC</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.13</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395</field>
+      </fields>
+      <libsource lib="1 uF Cap" part="C1608X7R1C105K080AC" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395"/>
+      <property name="Price" value="$0.13"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19ddc83e-fdbf-4854-b635-0a005a96e472</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>1 uF Cap:C1608X7R1C105K080AC</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.13</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395</field>
+      </fields>
+      <libsource lib="1 uF Cap" part="C1608X7R1C105K080AC" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395"/>
+      <property name="Price" value="$0.13"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c07a8d8f-859a-44bf-8376-d24c149d40f3</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>1 uF Cap:C1608X7R1C105K080AC</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.13</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395</field>
+      </fields>
+      <libsource lib="1 uF Cap" part="C1608X7R1C105K080AC" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395"/>
+      <property name="Price" value="$0.13"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b86f673b-613c-4552-ba67-55cd17a713d2</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>0.1 uF Cap:0402YC104KAT2A</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100</field>
+      </fields>
+      <libsource lib="0.1 uF Cap" part="0402YC104KAT2A" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>546edeb1-3422-4a9c-affc-bf88d9ae2f7c</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <footprint>0.1 uF Cap:0402YC104KAT2A</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100</field>
+      </fields>
+      <libsource lib="0.1 uF Cap" part="0402YC104KAT2A" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31867448-5d17-43fe-aa57-c394ce799fe0</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1u</value>
+      <footprint>0.1 uF Cap:0402YC104KAT2A</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100</field>
+      </fields>
+      <libsource lib="0.1 uF Cap" part="0402YC104KAT2A" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cfefa53-521d-494c-a3d5-c73eb871d1e6</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1u</value>
+      <footprint>0.1 uF Cap:0402YC104KAT2A</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100</field>
+      </fields>
+      <libsource lib="0.1 uF Cap" part="0402YC104KAT2A" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ee61be6-dfa9-44ca-875d-d5a58092297f</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1u</value>
+      <footprint>1 uF Cap:C1608X7R1C105K080AC</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.13</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395</field>
+      </fields>
+      <libsource lib="1 uF Cap" part="C1608X7R1C105K080AC" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395"/>
+      <property name="Price" value="$0.13"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3962498d-6d62-40e8-80a9-af064665a8a5</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1u</value>
+      <footprint>1 uF Cap:C1608X7R1C105K080AC</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.13</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395</field>
+      </fields>
+      <libsource lib="1 uF Cap" part="C1608X7R1C105K080AC" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395"/>
+      <property name="Price" value="$0.13"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>988f29cf-03fc-42d6-9301-de3c4ddc7e67</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1u</value>
+      <footprint>1 uF Cap:C1608X7R1C105K080AC</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.13</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395</field>
+      </fields>
+      <libsource lib="1 uF Cap" part="C1608X7R1C105K080AC" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395"/>
+      <property name="Price" value="$0.13"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df6e5857-ece3-4409-a55a-aa146e1f1ee4</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1u</value>
+      <footprint>0.1 uF Cap:0402YC104KAT2A</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100</field>
+      </fields>
+      <libsource lib="0.1 uF Cap" part="0402YC104KAT2A" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>492583f3-1dd4-4e60-818e-ad582fcdcabd</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1u</value>
+      <footprint>0.1 uF Cap:0402YC104KAT2A</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100</field>
+      </fields>
+      <libsource lib="0.1 uF Cap" part="0402YC104KAT2A" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>757e6c16-c857-433a-b105-2f149e3b128e</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10n</value>
+      <footprint>10 nF Cap:0402YC103KAT2A</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/kyocera-avx/0402YC103KAT2A/563224</field>
+      </fields>
+      <libsource lib="10 nF Cap" part="0402YC103KAT2A" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/kyocera-avx/0402YC103KAT2A/563224"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>072d0c5c-0f5a-4a35-b86c-3f99a51d75e2</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10n</value>
+      <footprint>10 nF Cap:0402YC103KAT2A</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/kyocera-avx/0402YC103KAT2A/563224</field>
+      </fields>
+      <libsource lib="10 nF Cap" part="0402YC103KAT2A" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/kyocera-avx/0402YC103KAT2A/563224"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da49fb2f-b8c8-4915-ae90-298f600cbba4</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1u</value>
+      <footprint>0.1 uF Cap:0402YC104KAT2A</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100</field>
+      </fields>
+      <libsource lib="0.1 uF Cap" part="0402YC104KAT2A" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>713ea3b9-286e-4b4f-9646-cfb80b53ba93</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>22u</value>
+      <footprint>22 uF Cap:CL21A226MQQNNNE</footprint>
+      <datasheet>http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL03A104MA3NNN</datasheet>
+      <fields>
+        <field name="Price">$0.14</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758</field>
+      </fields>
+      <libsource lib="22 uF Cap" part="CL21A226MQQNNNE" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"/>
+      <property name="Price" value="$0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>730fe345-6a4b-4789-ac63-141fb6b81426</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1u</value>
+      <footprint>1 uF Cap:C1608X7R1C105K080AC</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.13</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395</field>
+      </fields>
+      <libsource lib="1 uF Cap" part="C1608X7R1C105K080AC" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395"/>
+      <property name="Price" value="$0.13"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26f8f3e2-402d-4e56-ad5e-076fd05055d8</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>22u</value>
+      <footprint>22 uF Cap:CL21A226MQQNNNE</footprint>
+      <datasheet>http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL03A104MA3NNN</datasheet>
+      <fields>
+        <field name="Price">$0.14</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758</field>
+      </fields>
+      <libsource lib="22 uF Cap" part="CL21A226MQQNNNE" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"/>
+      <property name="Price" value="$0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>090d56d2-947e-49fa-88d4-052d466bb986</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>22u</value>
+      <footprint>22 uF Cap:CL21A226MQQNNNE</footprint>
+      <datasheet>http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL03A104MA3NNN</datasheet>
+      <fields>
+        <field name="Price">$0.14</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758</field>
+      </fields>
+      <libsource lib="22 uF Cap" part="CL21A226MQQNNNE" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"/>
+      <property name="Price" value="$0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e349756f-3b42-4164-8d3b-3ef41873492b</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>22u</value>
+      <footprint>22 uF Cap:CL21A226MQQNNNE</footprint>
+      <datasheet>http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL03A104MA3NNN</datasheet>
+      <fields>
+        <field name="Price">$0.14</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758</field>
+      </fields>
+      <libsource lib="22 uF Cap" part="CL21A226MQQNNNE" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"/>
+      <property name="Price" value="$0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bc9d5ce-1755-4c50-be33-fd8b076c56f9</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>22u</value>
+      <footprint>22 uF Cap:CL21A226MQQNNNE</footprint>
+      <datasheet>http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL03A104MA3NNN</datasheet>
+      <fields>
+        <field name="Price">$0.14</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758</field>
+      </fields>
+      <libsource lib="22 uF Cap" part="CL21A226MQQNNNE" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"/>
+      <property name="Price" value="$0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64dae37f-7930-4ee5-bcf5-a13428d160e4</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>22u</value>
+      <footprint>22 uF Cap:CL21A226MQQNNNE</footprint>
+      <datasheet>http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL03A104MA3NNN</datasheet>
+      <fields>
+        <field name="Price">$0.14</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758</field>
+      </fields>
+      <libsource lib="22 uF Cap" part="CL21A226MQQNNNE" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"/>
+      <property name="Price" value="$0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>870d42fd-5552-4782-afcb-888d3d4f2da0</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>22u</value>
+      <footprint>22 uF Cap:CL21A226MQQNNNE</footprint>
+      <datasheet>http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL03A104MA3NNN</datasheet>
+      <fields>
+        <field name="Price">$0.14</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758</field>
+      </fields>
+      <libsource lib="22 uF Cap" part="CL21A226MQQNNNE" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"/>
+      <property name="Price" value="$0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99c2320b-5554-4221-b1e0-73fc165123a7</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>22u</value>
+      <footprint>22 uF Cap:CL21A226MQQNNNE</footprint>
+      <datasheet>http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL03A104MA3NNN</datasheet>
+      <fields>
+        <field name="Price">$0.14</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758</field>
+      </fields>
+      <libsource lib="22 uF Cap" part="CL21A226MQQNNNE" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"/>
+      <property name="Price" value="$0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20370fa1-34d7-4843-ad5f-8462db30cd24</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>0.01u</value>
+      <footprint>0.01 uF cap:CL05B103KO5NNNC</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B103KO5NNNC_Spec.PDF</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KO5NNNC/3886709</field>
+      </fields>
+      <libsource lib="0.01 uF Cap" part="CL05B103KO5NNNC" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KO5NNNC/3886709"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>853e3f61-0f35-4c02-9254-ca3b7ba2f876</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>22u</value>
+      <footprint>22 uF Cap:CL21A226MQQNNNE</footprint>
+      <datasheet>http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL03A104MA3NNN</datasheet>
+      <fields>
+        <field name="Price">$0.14</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758</field>
+      </fields>
+      <libsource lib="22 uF Cap" part="CL21A226MQQNNNE" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"/>
+      <property name="Price" value="$0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94a50e0b-36e3-4371-99f7-f63f5eed5469</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>6.8n</value>
+      <footprint>6.8 nF Cap:0402B682K500CT</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B682K500CT/9354723</field>
+      </fields>
+      <libsource lib="6.8 nF Cap" part="0402B682K500CT" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B682K500CT/9354723"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2eb11e8e-a42b-468d-806b-259137dcad21</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>0.1u</value>
+      <footprint>0.1 uF Cap:0402YC104KAT2A</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100</field>
+      </fields>
+      <libsource lib="0.1 uF Cap" part="0402YC104KAT2A" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea6a8c21-edea-4d5e-8a9c-9706e1c75bfc</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>22u</value>
+      <footprint>22 uF Cap:CL21A226MQQNNNE</footprint>
+      <datasheet>http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL03A104MA3NNN</datasheet>
+      <fields>
+        <field name="Price">$0.14</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758</field>
+      </fields>
+      <libsource lib="22 uF Cap" part="CL21A226MQQNNNE" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"/>
+      <property name="Price" value="$0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73702805-80eb-4fa3-b9a6-52a720b3fb4b</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>22u</value>
+      <footprint>22 uF Cap:CL21A226MQQNNNE</footprint>
+      <datasheet>http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL03A104MA3NNN</datasheet>
+      <fields>
+        <field name="Price">$0.14</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758</field>
+      </fields>
+      <libsource lib="22 uF Cap" part="CL21A226MQQNNNE" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758"/>
+      <property name="Price" value="$0.14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d1cf18f-ca57-462c-9793-31c603008603</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>1u</value>
+      <footprint>1 uF Cap:C1608X7R1C105K080AC</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.13</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395</field>
+      </fields>
+      <libsource lib="1 uF Cap" part="C1608X7R1C105K080AC" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395"/>
+      <property name="Price" value="$0.13"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea4cfbc2-db63-4b8d-9630-af085d212d23</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>PESD1FLEX,215</value>
+      <footprint>Dual Diode:PESD1FLEX215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.51</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749</field>
+      </fields>
+      <libsource lib="Dual Diode" part="PESD1FLEX,215" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749"/>
+      <property name="Price" value="$0.51"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d33a4736-c811-4d0c-a054-0d71b90aa4de</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>PESD1FLEX,215</value>
+      <footprint>Dual Diode:PESD1FLEX215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.51</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749</field>
+      </fields>
+      <libsource lib="Dual Diode" part="PESD1FLEX,215" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749"/>
+      <property name="Price" value="$0.51"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dee58e53-bd0b-49e9-a6a0-742f4fcae626</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>PESD1FLEX,215</value>
+      <footprint>Dual Diode:PESD1FLEX215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.51</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749</field>
+      </fields>
+      <libsource lib="Dual Diode" part="PESD1FLEX,215" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749"/>
+      <property name="Price" value="$0.51"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69547fb4-20eb-4faf-bd25-e72a1156aef8</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>PESD1FLEX,215</value>
+      <footprint>Dual Diode:PESD1FLEX215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.51</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749</field>
+      </fields>
+      <libsource lib="Dual Diode" part="PESD1FLEX,215" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749"/>
+      <property name="Price" value="$0.51"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0955948a-745f-4aa3-843e-919ab8145127</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>PESD1FLEX,215</value>
+      <footprint>Dual Diode:PESD1FLEX215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.51</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749</field>
+      </fields>
+      <libsource lib="Dual Diode" part="PESD1FLEX,215" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749"/>
+      <property name="Price" value="$0.51"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff0a5b72-8afd-4a52-94ca-12ae4a49e3f4</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>PESD1FLEX,215</value>
+      <footprint>Dual Diode:PESD1FLEX215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.51</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749</field>
+      </fields>
+      <libsource lib="Dual Diode" part="PESD1FLEX,215" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749"/>
+      <property name="Price" value="$0.51"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0b351c0-726b-4351-8922-70b2f4bc40dd</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>PESD1FLEX,215</value>
+      <footprint>Dual Diode:PESD1FLEX215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.51</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749</field>
+      </fields>
+      <libsource lib="Dual Diode" part="PESD1FLEX,215" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749"/>
+      <property name="Price" value="$0.51"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>236d0761-827e-4129-beb4-8f60c456c7cc</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>PESD1FLEX,215</value>
+      <footprint>Dual Diode:PESD1FLEX215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.51</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749</field>
+      </fields>
+      <libsource lib="Dual Diode" part="PESD1FLEX,215" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749"/>
+      <property name="Price" value="$0.51"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38b4a071-3714-4b1f-96f7-34d728e9bbd4</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>PESD1FLEX,215</value>
+      <footprint>Dual Diode:PESD1FLEX215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.51</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749</field>
+      </fields>
+      <libsource lib="Dual Diode" part="PESD1FLEX,215" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749"/>
+      <property name="Price" value="$0.51"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41ae6870-6a32-46ff-ad6c-6b2e0b595f6c</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>CDBA340-HF</value>
+      <footprint>CDBA340-HF Diode:CDBA340-HF</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Comchip%20PDFs/CDBA340-HF_Thru_CDBA3100-HF_RevB.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.37</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/comchip-technology/CDBA340-HF/3308141</field>
+      </fields>
+      <libsource lib="CDBA340-HF Diode" part="CDBA340-HF" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/comchip-technology/CDBA340-HF/3308141"/>
+      <property name="Price" value="$0.37"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe0f7f11-a66a-47fe-8bf0-dee1134c1605</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>PESD1FLEX,215</value>
+      <footprint>Dual Diode:PESD1FLEX215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.51</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749</field>
+      </fields>
+      <libsource lib="Dual Diode" part="PESD1FLEX,215" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749"/>
+      <property name="Price" value="$0.51"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b72e685d-ab9f-4423-9424-260d3ed1b9ba</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>PESD1FLEX,215</value>
+      <footprint>Dual Diode:PESD1FLEX215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.51</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749</field>
+      </fields>
+      <libsource lib="Dual Diode" part="PESD1FLEX,215" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749"/>
+      <property name="Price" value="$0.51"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f282657-6831-4634-9141-09c4511b8a59</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>PESD1FLEX,215</value>
+      <footprint>Dual Diode:PESD1FLEX215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.51</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749</field>
+      </fields>
+      <libsource lib="Dual Diode" part="PESD1FLEX,215" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749"/>
+      <property name="Price" value="$0.51"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86b90d5a-1d07-48be-adb9-f46904f06617</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7eeef045-98bd-4667-b338-7edb860e0c5f</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bb8090f-3f0a-4eae-90f7-8629d90fb42e</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39f14879-e56e-450c-a78d-5e763b44fea6</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80ef33fa-8f14-457c-9a5a-edd20e39ce27</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>RX_PORT</value>
+      <footprint>RS485:MTJ-642BX2</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/203851/mtj-642bx2-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.38</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/adam-tech/MTJ-642BX2/9832240</field>
+      </fields>
+      <libsource lib="Connector" part="4P4C" description="RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22"/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/adam-tech/MTJ-642BX2/9832240"/>
+      <property name="Price" value="$0.38"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22"/>
+      <property name="ki_keywords" value="4P4C RJ female connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4012567-0397-4696-9a20-02c2d256bbfa</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>TX_PORT</value>
+      <footprint>RS485:MTJ-642BX2</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/203851/mtj-642bx2-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.38</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/adam-tech/MTJ-642BX2/9832240</field>
+      </fields>
+      <libsource lib="Connector" part="4P4C" description="RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22"/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/adam-tech/MTJ-642BX2/9832240"/>
+      <property name="Price" value="$0.38"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22"/>
+      <property name="ki_keywords" value="4P4C RJ female connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd65a59d-4174-4632-9ebd-a065f075c2c3</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>87583-2010BLF</value>
+      <footprint>USB 2.0 Type A:87583-2010BLF</footprint>
+      <datasheet>https://www.amphenol-icc.com/media/wysiwyg/files/drawing/87583.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.88</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/amphenol-icc-fci/87583-2010BLF/2665595</field>
+      </fields>
+      <libsource lib="USB 2.0 Type A" part="87583-2010BLF" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/amphenol-icc-fci/87583-2010BLF/2665595"/>
+      <property name="Price" value="$0.88"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e977b283-190a-44de-a105-b0099cce5419</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>Header:Conn_1x2</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9ec4eb9-ac60-4c23-9e19-585f62699475</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>GPIO Bank 0</value>
+      <footprint>Header:Conn_2x7</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Top_Bottom" description="Generic connector, double row, 02x07, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x07, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2c9d681-43ff-48eb-8635-d1707e886efd</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>SPI 0</value>
+      <footprint>Header:Conn_2x4</footprint>
+      <datasheet>https://drawings-pdf.s3.amazonaws.com/11639.pdf</datasheet>
+      <fields>
+        <field name="Price">$1.40</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/sullins-connector-solutions/PREC025DBAN-M71RC/2775629</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/sullins-connector-solutions/PREC025DBAN-M71RC/2775629"/>
+      <property name="Price" value="$1.40"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21d9d430-1019-43ad-bd7e-45f28eef3d6a</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Solenoid Power Selector</value>
+      <footprint>Header:Conn_1x3</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37b85bb7-1967-4f81-b5f5-9f260a69c2c1</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>GPIO Bank 1</value>
+      <footprint>Header:Conn_2x9</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x09_Top_Bottom" description="Generic connector, double row, 02x09, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x09, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cb98652-dbf4-4f8b-ba55-9b33bc4ed29b</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>I2C 1-2</value>
+      <footprint>Header:Conn_2x5</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Top_Bottom" description="Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73cbc85b-c448-469d-a389-5afc5acd7de2</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Encoder</value>
+      <footprint>Header:Conn_2x4</footprint>
+      <datasheet>https://drawings-pdf.s3.amazonaws.com/11639.pdf</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1953306-991d-499a-a742-944b9250fc0d</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x02_Male</value>
+      <footprint>Header:Conn_1x2</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23531e8c-ad6f-4110-af7b-9812e1a2670d</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x02_Male</value>
+      <footprint>Header:Conn_1x2</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27011eeb-a9cd-4d3f-b116-d8849f015226</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x02_Male</value>
+      <footprint>Header:Conn_1x2</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ace43f6-60ec-4ec4-86ee-c1a163f7211c</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x02_Male</value>
+      <footprint>Header:Conn_1x2</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff57c883-e9f8-4782-b713-a2efd812df39</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x02_Male</value>
+      <footprint>Header:Conn_1x2</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4655261-8b02-4656-a56c-b7f8dd067df2</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>Conn_01x02_Male</value>
+      <footprint>Header:Conn_1x2</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8749e412-5715-4c5f-bd86-88e9e5776e59</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>Conn_01x02_Male</value>
+      <footprint>Header:Conn_1x2</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>745f6fd0-3bb6-473b-9327-1423a1b0b56c</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>Conn_01x02_Male</value>
+      <footprint>Header:Conn_1x2</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d25a0f67-9e33-477a-a342-aa336ecd69fd</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>Conn_01x02_Male</value>
+      <footprint>Header:Conn_1x2</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1916c2c8-2385-4ffb-963d-cca77fa95fed</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>33u</value>
+      <footprint>33 uH Inductor:LB3218T330K</footprint>
+      <datasheet>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=LB3218T330K%20%20&amp;u=M</datasheet>
+      <fields>
+        <field name="Price">$0.17</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/taiyo-yuden/LB3218T330K/2763335</field>
+      </fields>
+      <libsource lib="33 uH Inductor" part="LB3218T330K" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/taiyo-yuden/LB3218T330K/2763335"/>
+      <property name="Price" value="$0.17"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>718aee64-1026-4d28-8097-90e83474ae64</tstamps>
+    </comp>
+    <comp ref="MOSFET0">
+      <value>SSM3K7002KFU</value>
+      <footprint>Toshiba MOSFET:SSM3K7002KFU</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=35715&amp;prodName=SSM3K7002KFU</datasheet>
+      <fields>
+        <field name="Price">$0.21</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142</field>
+      </fields>
+      <libsource lib="Toshiba MOSFET" part="SSM3K7002KFU" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142"/>
+      <property name="Price" value="$0.21"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12eeb262-b007-4b95-8bf4-afc0ec60d722</tstamps>
+    </comp>
+    <comp ref="MOSFET1">
+      <value>SSM3K7002KFU</value>
+      <footprint>Toshiba MOSFET:SSM3K7002KFU</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=35715&amp;prodName=SSM3K7002KFU</datasheet>
+      <fields>
+        <field name="Price">$0.21</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142</field>
+      </fields>
+      <libsource lib="Toshiba MOSFET" part="SSM3K7002KFU" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142"/>
+      <property name="Price" value="$0.21"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>152c2d17-4bd3-4dbe-a468-b6995a4f13d3</tstamps>
+    </comp>
+    <comp ref="MOSFET2">
+      <value>SSM3K7002KFU</value>
+      <footprint>Toshiba MOSFET:SSM3K7002KFU</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=35715&amp;prodName=SSM3K7002KFU</datasheet>
+      <fields>
+        <field name="Price">$0.21</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142</field>
+      </fields>
+      <libsource lib="Toshiba MOSFET" part="SSM3K7002KFU" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142"/>
+      <property name="Price" value="$0.21"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>caa47d85-bb71-4200-b03e-a83b71924d93</tstamps>
+    </comp>
+    <comp ref="MOSFET3">
+      <value>SSM3K7002KFU</value>
+      <footprint>Toshiba MOSFET:SSM3K7002KFU</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=35715&amp;prodName=SSM3K7002KFU</datasheet>
+      <fields>
+        <field name="Price">$0.21</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142</field>
+      </fields>
+      <libsource lib="Toshiba MOSFET" part="SSM3K7002KFU" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142"/>
+      <property name="Price" value="$0.21"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>facbbdf2-ceca-417c-a925-1281701aa202</tstamps>
+    </comp>
+    <comp ref="MOSFET4">
+      <value>SSM3K7002KFU</value>
+      <footprint>Toshiba MOSFET:SSM3K7002KFU</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=35715&amp;prodName=SSM3K7002KFU</datasheet>
+      <fields>
+        <field name="Price">$0.21</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142</field>
+      </fields>
+      <libsource lib="Toshiba MOSFET" part="SSM3K7002KFU" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142"/>
+      <property name="Price" value="$0.21"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3a468eb-6bb8-4961-91fa-2e8d4201e212</tstamps>
+    </comp>
+    <comp ref="MOSFET5">
+      <value>SSM3K7002KFU</value>
+      <footprint>Toshiba MOSFET:SSM3K7002KFU</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=35715&amp;prodName=SSM3K7002KFU</datasheet>
+      <fields>
+        <field name="Price">$0.21</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142</field>
+      </fields>
+      <libsource lib="Toshiba MOSFET" part="SSM3K7002KFU" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142"/>
+      <property name="Price" value="$0.21"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42064eff-0aa4-443b-a48c-c35b36b85479</tstamps>
+    </comp>
+    <comp ref="MOSFET6">
+      <value>SSM3K7002KFU</value>
+      <footprint>Toshiba MOSFET:SSM3K7002KFU</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=35715&amp;prodName=SSM3K7002KFU</datasheet>
+      <fields>
+        <field name="Price">$0.21</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142</field>
+      </fields>
+      <libsource lib="Toshiba MOSFET" part="SSM3K7002KFU" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142"/>
+      <property name="Price" value="$0.21"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86fe73cb-d356-43cb-9b3d-203bec3c8bbc</tstamps>
+    </comp>
+    <comp ref="MOSFET7">
+      <value>SSM3K7002KFU</value>
+      <footprint>Toshiba MOSFET:SSM3K7002KFU</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=35715&amp;prodName=SSM3K7002KFU</datasheet>
+      <fields>
+        <field name="Price">$0.21</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142</field>
+      </fields>
+      <libsource lib="Toshiba MOSFET" part="SSM3K7002KFU" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142"/>
+      <property name="Price" value="$0.21"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e07f8a20-6453-4dee-962a-e7abb4e53d16</tstamps>
+    </comp>
+    <comp ref="MOSFET8">
+      <value>SSM3K7002KFU</value>
+      <footprint>Toshiba MOSFET:SSM3K7002KFU</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=35715&amp;prodName=SSM3K7002KFU</datasheet>
+      <fields>
+        <field name="Price">$0.21</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142</field>
+      </fields>
+      <libsource lib="Toshiba MOSFET" part="SSM3K7002KFU" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142"/>
+      <property name="Price" value="$0.21"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3176a530-3a6f-43f7-a4a6-44c3e6794908</tstamps>
+    </comp>
+    <comp ref="MOSFET9">
+      <value>SSM3K7002KFU</value>
+      <footprint>Toshiba MOSFET:SSM3K7002KFU</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=35715&amp;prodName=SSM3K7002KFU</datasheet>
+      <fields>
+        <field name="Price">$0.21</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142</field>
+      </fields>
+      <libsource lib="Toshiba MOSFET" part="SSM3K7002KFU" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142"/>
+      <property name="Price" value="$0.21"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>845b53e9-2351-405a-b2e3-a8827b1fd3f6</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>J1B1211CCD</value>
+      <footprint>Ethernet:J1B1211CCD</footprint>
+      <datasheet>https://www.wiznet.hk/en/index.php?controller=attachment&amp;id_attachment=2</datasheet>
+      <fields>
+        <field name="Availability">Good</field>
+        <field name="Description">1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX</field>
+        <field name="MF">WIZnet</field>
+        <field name="MP">J1B1211CCD</field>
+        <field name="Package">None</field>
+        <field name="Price">$3.78</field>
+        <field name="Purchase-URL">https://pricing.snapeda.com/search/part/J1B1211CCD/?ref=eda</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/wiznet/J1B1211CCD/7604176?s=N4IgTCBcDaIFIEYBCCwIQYQwERAXQF8g</field>
+      </fields>
+      <libsource lib="Ethernet" part="J1B1211CCD" description=""/>
+      <property name="MF" value="WIZnet"/>
+      <property name="Availability" value="Good"/>
+      <property name="MP" value="J1B1211CCD"/>
+      <property name="Price" value="$3.78"/>
+      <property name="Package" value="None"/>
+      <property name="Description" value="1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX"/>
+      <property name="Purchase-URL" value="https://pricing.snapeda.com/search/part/J1B1211CCD/?ref=eda"/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/wiznet/J1B1211CCD/7604176?s=N4IgTCBcDaIFIEYBCCwIQYQwERAXQF8g"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed56a0b7-ea6f-4883-abb6-014d08fb2ea4</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10</value>
+      <footprint>10 Res:RNCP0603FTD10R0</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10R0/2240074</field>
+      </fields>
+      <libsource lib="10 Res" part="RNCP0603FTD10R0" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10R0/2240074"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fd7e654-c061-4235-be09-c8208890f019</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10</value>
+      <footprint>10 Res:RNCP0603FTD10R0</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10R0/2240074</field>
+      </fields>
+      <libsource lib="10 Res" part="RNCP0603FTD10R0" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10R0/2240074"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80aa062f-6921-42c7-bd50-2fb221938afd</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10</value>
+      <footprint>10 Res:RNCP0603FTD10R0</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10R0/2240074</field>
+      </fields>
+      <libsource lib="10 Res" part="RNCP0603FTD10R0" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10R0/2240074"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a898c411-d726-48c9-94ed-0cc74ed32c2e</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10</value>
+      <footprint>10 Res:RNCP0603FTD10R0</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rncp.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.10</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10R0/2240074</field>
+      </fields>
+      <libsource lib="10 Res" part="RNCP0603FTD10R0" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10R0/2240074"/>
+      <property name="Price" value="$0.10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2769b65d-75ed-4155-bc16-14b19756051a</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>20k</value>
+      <footprint>20K Res:SR1-0805-320</footprint>
+      <datasheet>https://www.nteinc.com/resistor_web/pdf/100mW.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.018</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nte-electronics-inc/SR1-0805-320/11646922</field>
+      </fields>
+      <libsource lib="20K Res" part="SR1-0805-320" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nte-electronics-inc/SR1-0805-320/11646922"/>
+      <property name="Price" value="$0.018"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e4ba7dd-b5db-4a09-a3b3-7c131df4ff9d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>10K Res:SR1-0603-310</footprint>
+      <datasheet>https://www.nteinc.com/resistor_web/pdf/0625W.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.018</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nte-electronics-inc/SR1-0603-310/11653339</field>
+      </fields>
+      <libsource lib="10K Res" part="SR1-0603-310" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nte-electronics-inc/SR1-0603-310/11653339"/>
+      <property name="Price" value="$0.018"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4ac0b2e-3f08-4400-bad2-ca6c0ed9571a</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>10K Res:SR1-0603-310</footprint>
+      <datasheet>https://www.nteinc.com/resistor_web/pdf/0625W.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.018</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nte-electronics-inc/SR1-0603-310/11653339</field>
+      </fields>
+      <libsource lib="10K Res" part="SR1-0603-310" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nte-electronics-inc/SR1-0603-310/11653339"/>
+      <property name="Price" value="$0.018"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea04b955-f62a-4c0a-a87d-8fcde3ae25df</tstamps>
+    </comp>
+    <comp ref="U0">
+      <value>MC78M05CDTRKG</value>
+      <footprint>12V5V Regulator:MC78M05CDTRKG</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mc78m00-d.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.54</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/onsemi/MC78M05CDTRKG/660633</field>
+      </fields>
+      <libsource lib="12V5V Regulator" part="MC78M05CDTRKG" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/onsemi/MC78M05CDTRKG/660633"/>
+      <property name="Price" value="$0.54"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbefbbf9-de0e-42bd-982e-9ca5f987f5b6</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Teensy4.1</value>
+      <footprint>Teensy:Teensy41</footprint>
+      <datasheet>https://www.pjrc.com/store/teensy41.html</datasheet>
+      <fields>
+        <field name="Price">$26.85</field>
+        <field name="Source">https://www.pjrc.com/store/teensy41.html</field>
+      </fields>
+      <libsource lib="Teensy" part="Teensy4.1" description=""/>
+      <property name="Source" value="https://www.pjrc.com/store/teensy41.html"/>
+      <property name="Price" value="$26.85"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83fcacc7-e5aa-4a4b-bdc7-bc44cd7f6326</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MC78M05CDTRKG</value>
+      <footprint>12V5V Regulator:MC78M05CDTRKG</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mc78m00-d.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.54</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/onsemi/MC78M05CDTRKG/660633</field>
+      </fields>
+      <libsource lib="12V5V Regulator" part="MC78M05CDTRKG" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/onsemi/MC78M05CDTRKG/660633"/>
+      <property name="Price" value="$0.54"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df07aae5-51d5-4d5c-bdb6-3c96ed477b89</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MC78M05CDTRKG</value>
+      <footprint>12V5V Regulator:MC78M05CDTRKG</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mc78m00-d.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.54</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/onsemi/MC78M05CDTRKG/660633</field>
+      </fields>
+      <libsource lib="12V5V Regulator" part="MC78M05CDTRKG" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/onsemi/MC78M05CDTRKG/660633"/>
+      <property name="Price" value="$0.54"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e92fa234-591f-44c1-ba72-da5fcd268f67</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MC78M05CDTRKG</value>
+      <footprint>12V5V Regulator:MC78M05CDTRKG</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/mc78m00-d.pdf</datasheet>
+      <fields>
+        <field name="Price">$0.54</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/onsemi/MC78M05CDTRKG/660633</field>
+      </fields>
+      <libsource lib="12V5V Regulator" part="MC78M05CDTRKG" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/onsemi/MC78M05CDTRKG/660633"/>
+      <property name="Price" value="$0.54"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df9cf339-baf9-417a-88fb-b16453d84455</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>ISL83490IBZ</value>
+      <footprint>RS485 To UART:ISL83490IBZ</footprint>
+      <datasheet>https://www.renesas.com/us/en/document/dst/isl83483-isl83485-isl83488-isl83490-isl83491-datasheet</datasheet>
+      <fields>
+        <field name="Price">$1.59</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/renesas-electronics-america-inc/ISL83490IBZ/1034856</field>
+      </fields>
+      <libsource lib="RS485 To UART" part="ISL83490IBZ" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/renesas-electronics-america-inc/ISL83490IBZ/1034856"/>
+      <property name="Price" value="$1.59"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6175487-d4c4-49fb-8d24-52cd2e1dcea4</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>74AXP2T3407GSX</value>
+      <footprint>Nexperia Level Shifter:74AXP2T3407GSX</footprint>
+      <datasheet>https://rocelec.widen.net/view/pdf/a2jyyeyli1/NEXP-S-A0003105494-1.pdf?t.download=true&amp;u=5oefqw</datasheet>
+      <fields>
+        <field name="Price">$0.64</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/74AXP2T3407GSX/5971143?s=N4IgTCBcDaIOwBYCCANACmAKgZgQBjgHEBlFEAXQF8g</field>
+      </fields>
+      <libsource lib="" part="74AXP2T3407GSX_1" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/74AXP2T3407GSX/5971143?s=N4IgTCBcDaIOwBYCCANACmAKgZgQBjgHEBlFEAXQF8g"/>
+      <property name="Price" value="$0.64"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27ed3834-33cc-4a24-8839-1ebf014fcb15</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>74AXP2T3407GSX</value>
+      <footprint>Nexperia Level Shifter:74AXP2T3407GSX</footprint>
+      <datasheet>https://rocelec.widen.net/view/pdf/a2jyyeyli1/NEXP-S-A0003105494-1.pdf?t.download=true&amp;u=5oefqw</datasheet>
+      <fields>
+        <field name="Price">$0.64</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/74AXP2T3407GSX/5971143?s=N4IgTCBcDaIOwBYCCANACmAKgZgQBjgHEBlFEAXQF8g</field>
+      </fields>
+      <libsource lib="Nexperia Level Shifter" part="74AXP2T3407GSX" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/nexperia-usa-inc/74AXP2T3407GSX/5971143?s=N4IgTCBcDaIOwBYCCANACmAKgZgQBjgHEBlFEAXQF8g"/>
+      <property name="Price" value="$0.64"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4337b5b2-86d6-46d6-a333-98d806f9db28</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>MIC2178-3.3YWM</value>
+      <footprint>33SW:MIC2178-33YWM</footprint>
+      <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579682</datasheet>
+      <fields>
+        <field name="Price">$8.01</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/microchip-technology/MIC2178-3-3YWM/5702196</field>
+      </fields>
+      <libsource lib="33SW" part="MIC2178-3.3YWM" description=""/>
+      <property name="Source" value="https://www.digikey.com/en/products/detail/microchip-technology/MIC2178-3-3YWM/5702196"/>
+      <property name="Price" value="$8.01"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Pneumatics Control Unit Pinned.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b065a3d9-0c71-45af-8f0c-7000dd6c2ff6</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="74AXP2T3407GSX_1">
+      <docs>https://rocelec.widen.net/view/pdf/a2jyyeyli1/NEXP-S-A0003105494-1.pdf?t.download=true&amp;u=5oefqw</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74AXP2T3407GSX_1</field>
+        <field name="Footprint">Nexperia Level Shifter:74AXP2T3407GSX</field>
+        <field name="Datasheet">https://rocelec.widen.net/view/pdf/a2jyyeyli1/NEXP-S-A0003105494-1.pdf?t.download=true&amp;u=5oefqw</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/74AXP2T3407GSX/5971143?s=N4IgTCBcDaIOwBYCCANACmAKgZgQBjgHEBlFEAXQF8g</field>
+        <field name="Price">$0.64</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCI" type="power_in"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="2Y" type="output"/>
+        <pin num="7" name="1Y" type="output"/>
+        <pin num="8" name="VCCO" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="0.01 uF Cap" part="CL05B103KO5NNNC">
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B103KO5NNNC_Spec.PDF</docs>
+      <footprints>
+        <fp>CAP_CL05_SAM</fp>
+        <fp>CAP_CL05_SAM-M</fp>
+        <fp>CAP_CL05_SAM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CL05B103KO5NNNC</field>
+        <field name="Footprint">0.01 uF cap:CL05B103KO5NNNC</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B103KO5NNNC_Spec.PDF</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B103KO5NNNC/3886709</field>
+        <field name="Price">$0.10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="0.1 uF Cap" part="0402YC104KAT2A">
+      <docs>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</docs>
+      <footprints>
+        <fp>0402_AVX</fp>
+        <fp>0402_AVX-M</fp>
+        <fp>0402_AVX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0402YC104KAT2A</field>
+        <field name="Footprint">0.1 uF Cap:0402YC104KAT2A</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/X7RDielectric.pdf</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/kyocera-avx/0402YC104KAT2A/3080100</field>
+        <field name="Price">$0.10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="unspecified"/>
+        <pin num="2" name="" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="1 uF Cap" part="C1608X7R1C105K080AC">
+      <docs>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</docs>
+      <footprints>
+        <fp>CAP_1608_TDK</fp>
+        <fp>CAP_1608_TDK-M</fp>
+        <fp>CAP_1608_TDK-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C1608X7R1C105K080AC</field>
+        <field name="Footprint">1 uF Cap:C1608X7R1C105K080AC</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/tdk-corporation/C1608X7R1C105K080AC/634395</field>
+        <field name="Price">$0.13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="10 Res" part="RNCP0603FTD10R0">
+      <docs>https://www.seielect.com/catalog/sei-rncp.pdf</docs>
+      <footprints>
+        <fp>STA_RNCP0603_STP</fp>
+        <fp>STA_RNCP0603_STP-M</fp>
+        <fp>STA_RNCP0603_STP-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RNCP0603FTD10R0</field>
+        <field name="Footprint">10 Res:RNCP0603FTD10R0</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rncp.pdf</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0603FTD10R0/2240074</field>
+        <field name="Price">$0.10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="10 nF Cap" part="0402YC103KAT2A">
+      <docs>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</docs>
+      <footprints>
+        <fp>0402_AVX</fp>
+        <fp>0402_AVX-M</fp>
+        <fp>0402_AVX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0402YC103KAT2A</field>
+        <field name="Footprint">10 nF Cap:0402YC103KAT2A</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/X7RDielectric.pdf</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/kyocera-avx/0402YC103KAT2A/563224</field>
+        <field name="Price">$0.10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="unspecified"/>
+        <pin num="2" name="" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="10K Res" part="SR1-0603-310">
+      <docs>https://www.nteinc.com/resistor_web/pdf/0625W.pdf</docs>
+      <footprints>
+        <fp>RES_SR1_0603_000-610_NTE</fp>
+        <fp>RES_SR1_0603_000-610_NTE-M</fp>
+        <fp>RES_SR1_0603_000-610_NTE-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SR1-0603-310</field>
+        <field name="Footprint">10K Res:SR1-0603-310</field>
+        <field name="Datasheet">https://www.nteinc.com/resistor_web/pdf/0625W.pdf</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nte-electronics-inc/SR1-0603-310/11653339</field>
+        <field name="Price">$0.018</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="12V5V Regulator" part="MC78M05CDTRKG">
+      <docs>https://www.onsemi.com/pdf/datasheet/mc78m00-d.pdf</docs>
+      <footprints>
+        <fp>DPAK-3_ONS</fp>
+        <fp>DPAK-3_ONS-M</fp>
+        <fp>DPAK-3_ONS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC78M05CDTRKG</field>
+        <field name="Footprint">12V5V Regulator:MC78M05CDTRKG</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/mc78m00-d.pdf</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/onsemi/MC78M05CDTRKG/660633</field>
+        <field name="Price">$0.54</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INPUT" type="input"/>
+        <pin num="3" name="OUTPUT" type="output"/>
+        <pin num="4" name="GROUND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="20K Res" part="SR1-0805-320">
+      <docs>https://www.nteinc.com/resistor_web/pdf/100mW.pdf</docs>
+      <footprints>
+        <fp>RES_SR1_0805_NTE</fp>
+        <fp>RES_SR1_0805_NTE-M</fp>
+        <fp>RES_SR1_0805_NTE-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SR1-0805-320</field>
+        <field name="Footprint">20K Res:SR1-0805-320</field>
+        <field name="Datasheet">https://www.nteinc.com/resistor_web/pdf/100mW.pdf</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nte-electronics-inc/SR1-0805-320/11646922</field>
+        <field name="Price">$0.018</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="22 uF Cap" part="CL21A226MQQNNNE">
+      <docs>http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL03A104MA3NNN</docs>
+      <footprints>
+        <fp>CAP_CL21_SAM</fp>
+        <fp>CAP_CL21_SAM-M</fp>
+        <fp>CAP_CL21_SAM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CL21A226MQQNNNE</field>
+        <field name="Footprint">22 uF Cap:CL21A226MQQNNNE</field>
+        <field name="Datasheet">http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL03A104MA3NNN</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MQQNNNE/3886758</field>
+        <field name="Price">$0.14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="33 uH Inductor" part="LB3218T330K">
+      <docs>https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=LB3218T330K%20%20&amp;u=M</docs>
+      <footprints>
+        <fp>IND_TAIYO_LB3218_TAY</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">LB3218T330K</field>
+        <field name="Footprint">33 uH Inductor:LB3218T330K</field>
+        <field name="Datasheet">https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=LB3218T330K%20%20&amp;u=M</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/taiyo-yuden/LB3218T330K/2763335</field>
+        <field name="Price">$0.17</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="33SW" part="MIC2178-3.3YWM">
+      <docs>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579682</docs>
+      <footprints>
+        <fp>WSOIC-20_MCL</fp>
+        <fp>WSOIC-20_MCL-M</fp>
+        <fp>WSOIC-20_MCL-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC2178-3.3YWM</field>
+        <field name="Footprint">33SW:MIC2178-33YWM</field>
+        <field name="Datasheet">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579682</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/microchip-technology/MIC2178-3-3YWM/5702196</field>
+        <field name="Price">$8.01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="VIN" type="input"/>
+        <pin num="3" name="SW" type="output"/>
+        <pin num="4" name="PGND" type="unspecified"/>
+        <pin num="5" name="PGND" type="unspecified"/>
+        <pin num="6" name="PGND" type="unspecified"/>
+        <pin num="7" name="PGND" type="unspecified"/>
+        <pin num="8" name="SW" type="output"/>
+        <pin num="9" name="VIN" type="input"/>
+        <pin num="10" name="*PWM" type="input"/>
+        <pin num="11" name="PWRGD" type="output"/>
+        <pin num="12" name="FB" type="input"/>
+        <pin num="13" name="COMP" type="output"/>
+        <pin num="14" name="SGND" type="power_in"/>
+        <pin num="15" name="SGND" type="power_in"/>
+        <pin num="16" name="SGND" type="power_in"/>
+        <pin num="17" name="SGND" type="power_in"/>
+        <pin num="18" name="SYNC" type="input"/>
+        <pin num="19" name="BIAS" type="unspecified"/>
+        <pin num="20" name="EN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="6.8 nF Cap" part="0402B682K500CT">
+      <docs>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</docs>
+      <footprints>
+        <fp>CAP_0402_N_WAL</fp>
+        <fp>CAP_0402_N_WAL-M</fp>
+        <fp>CAP_0402_N_WAL-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0402B682K500CT</field>
+        <field name="Footprint">6.8 nF Cap:0402B682K500CT</field>
+        <field name="Datasheet">http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/walsin-technology-corporation/0402B682K500CT/9354723</field>
+        <field name="Price">$0.10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="CDBA340-HF Diode" part="CDBA340-HF">
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Comchip%20PDFs/CDBA340-HF_Thru_CDBA3100-HF_RevB.pdf</docs>
+      <footprints>
+        <fp>CDBA-HF</fp>
+        <fp>CDBA-HF-M</fp>
+        <fp>CDBA-HF-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">CDBA340-HF</field>
+        <field name="Footprint">CDBA340-HF Diode:CDBA340-HF</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Comchip%20PDFs/CDBA340-HF_Thru_CDBA3100-HF_RevB.pdf</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/comchip-technology/CDBA340-HF/3308141</field>
+        <field name="Price">$0.37</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="4P4C">
+      <description>RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>4P4C*</fp>
+        <fp>RJ9*</fp>
+        <fp>RJ10*</fp>
+        <fp>RJ22*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">4P4C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Top_Bottom">
+      <description>Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Top_Bottom">
+      <description>Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x07_Top_Bottom">
+      <description>Generic connector, double row, 02x07, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x09_Top_Bottom">
+      <description>Generic connector, double row, 02x09, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x09_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Dual Diode" part="PESD1FLEX,215">
+      <docs>https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PESD1FLEX,215</field>
+        <field name="Footprint">Dual Diode:PESD1FLEX215</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESD1FLEX.pdf</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/PESD1FLEX-215/2531749</field>
+        <field name="Price">$0.51</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Ethernet" part="J1B1211CCD">
+      <docs>https://www.wiznet.hk/en/index.php?controller=attachment&amp;id_attachment=2</docs>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">J1B1211CCD</field>
+        <field name="Footprint">Ethernet:J1B1211CCD</field>
+        <field name="Datasheet">https://www.wiznet.hk/en/index.php?controller=attachment&amp;id_attachment=2</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/wiznet/J1B1211CCD/7604176?s=N4IgTCBcDaIFIEYBCCwIQYQwERAXQF8g</field>
+        <field name="Price">$3.78</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TD+" type="passive"/>
+        <pin num="2" name="TCT" type="passive"/>
+        <pin num="3" name="TD-" type="passive"/>
+        <pin num="4" name="RD+" type="passive"/>
+        <pin num="5" name="RCT" type="passive"/>
+        <pin num="6" name="RD-" type="passive"/>
+        <pin num="7" name="NC" type="passive"/>
+        <pin num="8" name="GH_GND@1" type="passive"/>
+        <pin num="9" name="GRN-" type="passive"/>
+        <pin num="10" name="GRN+" type="passive"/>
+        <pin num="11" name="YLW-" type="passive"/>
+        <pin num="12" name="YLW+" type="passive"/>
+        <pin num="13" name="CH_GND@2" type="passive"/>
+        <pin num="14" name="CH_GND@3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Nexperia Level Shifter" part="74AXP2T3407GSX">
+      <docs>https://rocelec.widen.net/view/pdf/a2jyyeyli1/NEXP-S-A0003105494-1.pdf?t.download=true&amp;u=5oefqw</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74AXP2T3407GSX</field>
+        <field name="Footprint">Nexperia Level Shifter:74AXP2T3407GSX</field>
+        <field name="Datasheet">https://rocelec.widen.net/view/pdf/a2jyyeyli1/NEXP-S-A0003105494-1.pdf?t.download=true&amp;u=5oefqw</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/nexperia-usa-inc/74AXP2T3407GSX/5971143?s=N4IgTCBcDaIOwBYCCANACmAKgZgQBjgHEBlFEAXQF8g</field>
+        <field name="Price">$0.64</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCI" type="power_in"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="2Y" type="output"/>
+        <pin num="7" name="1Y" type="output"/>
+        <pin num="8" name="VCCO" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RS485 To UART" part="ISL83490IBZ">
+      <docs>https://www.renesas.com/us/en/document/dst/isl83483-isl83485-isl83488-isl83490-isl83491-datasheet</docs>
+      <footprints>
+        <fp>SOIC8_4X5_INR</fp>
+        <fp>SOIC8_4X5_INR-M</fp>
+        <fp>SOIC8_4X5_INR-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ISL83490IBZ</field>
+        <field name="Footprint">RS485 To UART:ISL83490IBZ</field>
+        <field name="Datasheet">https://www.renesas.com/us/en/document/dst/isl83483-isl83485-isl83488-isl83490-isl83491-datasheet</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/renesas-electronics-america-inc/ISL83490IBZ/1034856</field>
+        <field name="Price">$1.59</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="RO" type="output"/>
+        <pin num="3" name="DI" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Y" type="output"/>
+        <pin num="6" name="Z" type="output"/>
+        <pin num="7" name="B" type="input"/>
+        <pin num="8" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Teensy" part="Teensy4.1">
+      <docs>https://www.pjrc.com/store/teensy41.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Teensy4.1</field>
+        <field name="Footprint">Teensy:Teensy41</field>
+        <field name="Datasheet">https://www.pjrc.com/store/teensy41.html</field>
+        <field name="Source">https://www.pjrc.com/store/teensy41.html</field>
+        <field name="Price">$26.85</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="0_RX1_CRX2_CS1" type="bidirectional"/>
+        <pin num="3" name="1_TX1_CTX2_MISO1" type="bidirectional"/>
+        <pin num="4" name="2_OUT2" type="bidirectional"/>
+        <pin num="5" name="3_LRCLK2" type="bidirectional"/>
+        <pin num="6" name="4_BCLK2" type="bidirectional"/>
+        <pin num="7" name="5_IN2" type="bidirectional"/>
+        <pin num="8" name="6_OUT1D" type="bidirectional"/>
+        <pin num="9" name="7_RX2_OUT1A" type="bidirectional"/>
+        <pin num="10" name="8_TX2_IN1" type="bidirectional"/>
+        <pin num="11" name="9_OUT1C" type="bidirectional"/>
+        <pin num="12" name="10_CS_MQSR" type="bidirectional"/>
+        <pin num="13" name="11_MOSI_CTX1" type="bidirectional"/>
+        <pin num="14" name="12_MISO_MQSL" type="bidirectional"/>
+        <pin num="15" name="3V3" type="power_in"/>
+        <pin num="16" name="24_A10_TX6_SCL2" type="bidirectional"/>
+        <pin num="17" name="25_A11_RX6_SDA2" type="bidirectional"/>
+        <pin num="18" name="26_A12_MOSI1" type="bidirectional"/>
+        <pin num="19" name="27_A13_SCK1" type="bidirectional"/>
+        <pin num="20" name="28_RX7" type="bidirectional"/>
+        <pin num="21" name="29_TX7" type="bidirectional"/>
+        <pin num="22" name="30_CRX3" type="bidirectional"/>
+        <pin num="23" name="31_CTX3" type="bidirectional"/>
+        <pin num="24" name="32_OUT1B" type="bidirectional"/>
+        <pin num="25" name="33_MCLK2" type="bidirectional"/>
+        <pin num="26" name="34_RX8" type="bidirectional"/>
+        <pin num="27" name="35_TX8" type="bidirectional"/>
+        <pin num="28" name="36_CS" type="bidirectional"/>
+        <pin num="29" name="37_CS" type="bidirectional"/>
+        <pin num="30" name="38_CS1_IN1" type="bidirectional"/>
+        <pin num="31" name="39_MISO1_OUT1A" type="bidirectional"/>
+        <pin num="32" name="40_A16" type="bidirectional"/>
+        <pin num="33" name="41_A17" type="bidirectional"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="13_SCK_LED" type="bidirectional"/>
+        <pin num="36" name="14_A0_TX3_SPDIF_OUT" type="bidirectional"/>
+        <pin num="37" name="15_A1_RX3_SPDIF_IN" type="bidirectional"/>
+        <pin num="38" name="16_A2_RX4_SCL1" type="bidirectional"/>
+        <pin num="39" name="17_A3_TX4_SDA1" type="bidirectional"/>
+        <pin num="40" name="18_A4_SDA" type="bidirectional"/>
+        <pin num="41" name="19_A5_SCL" type="bidirectional"/>
+        <pin num="42" name="20_A6_TX5_LRCLK1" type="bidirectional"/>
+        <pin num="43" name="21_A7_RX5_BCLK1" type="bidirectional"/>
+        <pin num="44" name="22_A8_CTX1" type="bidirectional"/>
+        <pin num="45" name="23_A9_CRX1_MCLK1" type="bidirectional"/>
+        <pin num="46" name="3V3" type="output"/>
+        <pin num="47" name="GND" type="output"/>
+        <pin num="48" name="VIN" type="power_in"/>
+        <pin num="49" name="VUSB" type="power_out"/>
+        <pin num="50" name="VBAT" type="power_in"/>
+        <pin num="51" name="3V3" type="power_in"/>
+        <pin num="52" name="GND" type="input"/>
+        <pin num="53" name="PROGRAM" type="input"/>
+        <pin num="54" name="ON_OFF" type="input"/>
+        <pin num="55" name="5V" type="power_out"/>
+        <pin num="56" name="D-" type="bidirectional"/>
+        <pin num="57" name="D+" type="bidirectional"/>
+        <pin num="58" name="GND" type="power_in"/>
+        <pin num="59" name="GND" type="power_in"/>
+        <pin num="60" name="R+" type="bidirectional"/>
+        <pin num="61" name="LED" type="bidirectional"/>
+        <pin num="62" name="T-" type="bidirectional"/>
+        <pin num="63" name="T+" type="bidirectional"/>
+        <pin num="64" name="GND" type="power_in"/>
+        <pin num="65" name="R-" type="bidirectional"/>
+        <pin num="66" name="D-" type="bidirectional"/>
+        <pin num="67" name="D+" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Toshiba MOSFET" part="SSM3K7002KFU">
+      <docs>https://toshiba.semicon-storage.com/info/docget.jsp?did=35715&amp;prodName=SSM3K7002KFU</docs>
+      <footprints>
+        <fp>USM_TOS</fp>
+        <fp>USM_TOS-M</fp>
+        <fp>USM_TOS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MOSFET</field>
+        <field name="Value">SSM3K7002KFU</field>
+        <field name="Footprint">Toshiba MOSFET:SSM3K7002KFU</field>
+        <field name="Datasheet">https://toshiba.semicon-storage.com/info/docget.jsp?did=35715&amp;prodName=SSM3K7002KFU</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3K7002KFU-LF/6593142</field>
+        <field name="Price">$0.21</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GATE" type="unspecified"/>
+        <pin num="2" name="SOURCE" type="unspecified"/>
+        <pin num="3" name="DRAIN" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB 2.0 Type A" part="87583-2010BLF">
+      <docs>https://www.amphenol-icc.com/media/wysiwyg/files/drawing/87583.pdf</docs>
+      <footprints>
+        <fp>Conn_USB-87583_AMP</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">87583-2010BLF</field>
+        <field name="Footprint">USB 2.0 Type A:87583-2010BLF</field>
+        <field name="Datasheet">https://www.amphenol-icc.com/media/wysiwyg/files/drawing/87583.pdf</field>
+        <field name="Source">https://www.digikey.com/en/products/detail/amphenol-icc-fci/87583-2010BLF/2665595</field>
+        <field name="Price">$0.88</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="D+" type="output"/>
+        <pin num="3" name="D-" type="input"/>
+        <pin num="4" name="VCC" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0.01 uF Cap">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/0.01 uF Cap/CL05B103KO5NNNC.kicad_sym</uri>
+    </library>
+    <library logical="0.1 uF Cap">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/0.1 uF Cap/0402YC104KAT2A.kicad_sym</uri>
+    </library>
+    <library logical="1 uF Cap">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/1uF Cap/C1608X7R1C105K080AC.kicad_sym</uri>
+    </library>
+    <library logical="10 Res">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/10 Res/RNCP0603FTD10R0.kicad_sym</uri>
+    </library>
+    <library logical="10 nF Cap">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/10 nF Cap/0402YC103KAT2A.kicad_sym</uri>
+    </library>
+    <library logical="10K Res">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/10K Res/SR1-0603-310.kicad_sym</uri>
+    </library>
+    <library logical="12V5V Regulator">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/12V5V Voltage Regulator/MC78M05CDTRKG.kicad_sym</uri>
+    </library>
+    <library logical="20K Res">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/20K Res/SR1-0805-320.kicad_sym</uri>
+    </library>
+    <library logical="22 uF Cap">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/22 uF Cap/CL21A226MQQNNNE.kicad_sym</uri>
+    </library>
+    <library logical="33 uH Inductor">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/33 uH Inductor/LB3218T330K.kicad_sym</uri>
+    </library>
+    <library logical="33SW">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/33V SW/MIC2178-33YWM.kicad_sym</uri>
+    </library>
+    <library logical="6.8 nF Cap">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/6.8 nF Cap/0402B682K500CT.kicad_sym</uri>
+    </library>
+    <library logical="CDBA340-HF Diode">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/CDBA340-HF Diode/CDBA340-HF.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.99\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.99\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Dual Diode">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/Dual Diode/PESD1FLEX215.kicad_sym</uri>
+    </library>
+    <library logical="Ethernet">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/Ethernet/J1B1211CCD.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.99\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Nexperia Level Shifter">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/Nexperia Level Shifter/74AXP2T3407GSX.kicad_sym</uri>
+    </library>
+    <library logical="RS485 To UART">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/RS485 to UART/ISL83490IBZ.kicad_sym</uri>
+    </library>
+    <library logical="Teensy">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/teensy_library-master/teensy.kicad_sym</uri>
+    </library>
+    <library logical="Toshiba MOSFET">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/Toshiba MOSFET/SSM3K7002KFU.kicad_sym</uri>
+    </library>
+    <library logical="USB 2.0 Type A">
+      <uri>C:\Users\caboo\Documents\GitHub\pcb-design\Pneumatics Control Unit Pin (Senior Design)/Libraries/USB 2.0 Type A/87583-2010BLF.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C18" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C19" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C20" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C21" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C22" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C23" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C24" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C26" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C28" pin="2" pintype="unspecified"/>
+      <node ref="C29" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C30" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J8" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U5" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="VCCI" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="VCCI" pintype="power_in"/>
+      <node ref="U8" pin="12" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C10" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C11" pin="2" pintype="unspecified"/>
+      <node ref="C12" pin="2" pintype="unspecified"/>
+      <node ref="C13" pin="2" pintype="unspecified"/>
+      <node ref="C14" pin="2" pintype="unspecified"/>
+      <node ref="C31" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C9" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="VCC" pintype="power_out"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U0" pin="3" pinfunction="OUTPUT" pintype="output"/>
+      <node ref="U1" pin="48" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="OUTPUT" pintype="output"/>
+      <node ref="U3" pin="3" pinfunction="OUTPUT" pintype="output"/>
+      <node ref="U4" pin="3" pinfunction="OUTPUT" pintype="output"/>
+      <node ref="U6" pin="8" pinfunction="VCCO" pintype="power_in"/>
+      <node ref="U7" pin="8" pinfunction="VCCO" pintype="power_in"/>
+    </net>
+    <net code="4" name="/Encoder_0_CCW">
+      <node ref="J10" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="2A" pintype="input"/>
+    </net>
+    <net code="5" name="/Encoder_0_CW">
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="1A" pintype="input"/>
+    </net>
+    <net code="6" name="/Encoder_1_CCW">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="1A" pintype="input"/>
+    </net>
+    <net code="7" name="/Encoder_1_CW">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="2A" pintype="input"/>
+    </net>
+    <net code="8" name="/GPIO_0">
+      <node ref="D3" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="MOSFET0" pin="1" pinfunction="GATE" pintype="unspecified"/>
+      <node ref="U1" pin="4" pinfunction="2_OUT2" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/GPIO_1">
+      <node ref="D7" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="MOSFET1" pin="1" pinfunction="GATE" pintype="unspecified"/>
+      <node ref="U1" pin="5" pinfunction="3_LRCLK2" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/GPIO_2">
+      <node ref="D11" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="MOSFET2" pin="1" pinfunction="GATE" pintype="unspecified"/>
+      <node ref="U1" pin="6" pinfunction="4_BCLK2" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/GPIO_3">
+      <node ref="D4" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="MOSFET3" pin="1" pinfunction="GATE" pintype="unspecified"/>
+      <node ref="U1" pin="7" pinfunction="5_IN2" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/GPIO_4">
+      <node ref="D8" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="MOSFET4" pin="1" pinfunction="GATE" pintype="unspecified"/>
+      <node ref="U1" pin="8" pinfunction="6_OUT1D" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/GPIO_5">
+      <node ref="D12" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="MOSFET5" pin="1" pinfunction="GATE" pintype="unspecified"/>
+      <node ref="U1" pin="11" pinfunction="9_OUT1C" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/GPIO_6">
+      <node ref="D5" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="MOSFET6" pin="1" pinfunction="GATE" pintype="unspecified"/>
+      <node ref="U1" pin="20" pinfunction="28_RX7" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/GPIO_7">
+      <node ref="D9" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="MOSFET7" pin="1" pinfunction="GATE" pintype="unspecified"/>
+      <node ref="U1" pin="21" pinfunction="29_TX7" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/GPIO_8">
+      <node ref="D13" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="MOSFET8" pin="1" pinfunction="GATE" pintype="unspecified"/>
+      <node ref="U1" pin="22" pinfunction="30_CRX3" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/GPIO_9">
+      <node ref="D6" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="MOSFET9" pin="1" pinfunction="GATE" pintype="unspecified"/>
+      <node ref="U1" pin="23" pinfunction="31_CTX3" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/GPIO_10">
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="32_OUT1B" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/GPIO_11">
+      <node ref="J8" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="15_A1_RX3_SPDIF_IN" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/GPIO_12">
+      <node ref="J8" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="14_A0_TX3_SPDIF_OUT" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/GPIO_13">
+      <node ref="J8" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="41_A17" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/GPIO_14">
+      <node ref="J8" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="40_A16" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/GPIO_15">
+      <node ref="J8" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="39_MISO1_OUT1A" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/GPIO_16">
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="38_CS1_IN1" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/GPIO_17">
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="36_CS" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/GPIO_18">
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="35_TX8" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/GPIO_19">
+      <node ref="J8" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="34_RX8" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/GPIO_20">
+      <node ref="J8" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="33_MCLK2" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/I2C_0_SCL">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="19_A5_SCL" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/I2C_0_SDA">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="18_A4_SDA" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/I2C_1_SCL">
+      <node ref="J9" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="16_A2_RX4_SCL1" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/I2C_1_SDA">
+      <node ref="J9" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="17_A3_TX4_SDA1" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/I2C_2_SCL">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="24_A10_TX6_SCL2" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/I2C_2_SDA">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="25_A11_RX6_SDA2" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/LED_Ethernet">
+      <node ref="P1" pin="10" pinfunction="GRN+" pintype="passive"/>
+      <node ref="U1" pin="61" pinfunction="LED" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/R+_Ethernet">
+      <node ref="P1" pin="4" pinfunction="RD+" pintype="passive"/>
+      <node ref="U1" pin="60" pinfunction="R+" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/R-_Ethernet">
+      <node ref="P1" pin="6" pinfunction="RD-" pintype="passive"/>
+      <node ref="U1" pin="65" pinfunction="R-" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/RS485_A_12V">
+      <node ref="C16" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C17" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J1" pin="4" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="VIN" pintype="input"/>
+      <node ref="U8" pin="2" pinfunction="VIN" pintype="input"/>
+      <node ref="U8" pin="20" pinfunction="EN" pintype="input"/>
+      <node ref="U8" pin="9" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="39" name="/RS485_B_12V">
+      <node ref="C0" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J2" pin="4" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U0" pin="1" pinfunction="INPUT" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="INPUT" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="INPUT" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="INPUT" pintype="input"/>
+    </net>
+    <net code="40" name="/RS485_RXD">
+      <node ref="U1" pin="10" pinfunction="8_TX2_IN1" pintype="bidirectional"/>
+      <node ref="U5" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="41" name="/RS485_TXD">
+      <node ref="U1" pin="9" pinfunction="7_RX2_OUT1A" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="RO" pintype="output"/>
+    </net>
+    <net code="42" name="/SPI_0_CS">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="43" name="/SPI_0_CS_0">
+      <node ref="U1" pin="12" pinfunction="10_CS_MQSR" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/SPI_0_CS_1">
+      <node ref="U1" pin="29" pinfunction="37_CS" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/SPI_0_MISO">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="12_MISO_MQSL" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/SPI_0_MOSI">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="11_MOSI_CTX1" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/SPI_0_SCK">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="13_SCK_LED" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/SPI_1_CS">
+      <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="0_RX1_CRX2_CS1" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/SPI_1_MISO1">
+      <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="1_TX1_CTX2_MISO1" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/SPI_1_MOSI1">
+      <node ref="J5" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="26_A12_MOSI1" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/SPI_1_SCK">
+      <node ref="J5" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="27_A13_SCK1" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/Solenoid_Power">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="53" name="/T+_Ethernet">
+      <node ref="P1" pin="1" pinfunction="TD+" pintype="passive"/>
+      <node ref="U1" pin="63" pinfunction="T+" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/T-_Ethernet">
+      <node ref="P1" pin="3" pinfunction="TD-" pintype="passive"/>
+      <node ref="U1" pin="62" pinfunction="T-" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/USB_D+">
+      <node ref="J3" pin="2" pinfunction="D+" pintype="output"/>
+      <node ref="U1" pin="57" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="/USB_D-">
+      <node ref="J3" pin="3" pinfunction="D-" pintype="input"/>
+      <node ref="U1" pin="56" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="/USB_IN_D+">
+      <node ref="U1" pin="67" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="/USB_IN_D-">
+      <node ref="U1" pin="66" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="/V_USB">
+      <node ref="U1" pin="55" pinfunction="5V" pintype="power_out"/>
+    </net>
+    <net code="60" name="GND">
+      <node ref="C0" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C10" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C11" pin="1" pintype="unspecified"/>
+      <node ref="C12" pin="1" pintype="unspecified"/>
+      <node ref="C13" pin="1" pintype="unspecified"/>
+      <node ref="C14" pin="1" pintype="unspecified"/>
+      <node ref="C15" pin="1" pintype="unspecified"/>
+      <node ref="C16" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C17" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C18" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C19" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C20" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C21" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C22" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C23" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C24" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C25" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C26" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C27" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C28" pin="1" pintype="unspecified"/>
+      <node ref="C29" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C30" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C31" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C4" pin="1" pintype="unspecified"/>
+      <node ref="C5" pin="1" pintype="unspecified"/>
+      <node ref="C6" pin="1" pintype="unspecified"/>
+      <node ref="C7" pin="1" pintype="unspecified"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C9" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="D1" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="D10" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="D11" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="D12" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="D13" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="D2" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="D3" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="D4" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="D5" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="D6" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="D7" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="D8" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="D9" pin="3" pinfunction="3" pintype="bidirectional"/>
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J10" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J8" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J8" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="MOSFET0" pin="2" pinfunction="SOURCE" pintype="unspecified"/>
+      <node ref="MOSFET1" pin="2" pinfunction="SOURCE" pintype="unspecified"/>
+      <node ref="MOSFET2" pin="2" pinfunction="SOURCE" pintype="unspecified"/>
+      <node ref="MOSFET3" pin="2" pinfunction="SOURCE" pintype="unspecified"/>
+      <node ref="MOSFET4" pin="2" pinfunction="SOURCE" pintype="unspecified"/>
+      <node ref="MOSFET5" pin="2" pinfunction="SOURCE" pintype="unspecified"/>
+      <node ref="MOSFET6" pin="2" pinfunction="SOURCE" pintype="unspecified"/>
+      <node ref="MOSFET7" pin="2" pinfunction="SOURCE" pintype="unspecified"/>
+      <node ref="MOSFET8" pin="2" pinfunction="SOURCE" pintype="unspecified"/>
+      <node ref="MOSFET9" pin="2" pinfunction="SOURCE" pintype="unspecified"/>
+      <node ref="P1" pin="11" pinfunction="YLW-" pintype="passive"/>
+      <node ref="P1" pin="12" pinfunction="YLW+" pintype="passive"/>
+      <node ref="P1" pin="13" pinfunction="CH_GND@2" pintype="passive"/>
+      <node ref="P1" pin="14" pinfunction="CH_GND@3" pintype="passive"/>
+      <node ref="P1" pin="7" pinfunction="NC" pintype="passive"/>
+      <node ref="P1" pin="8" pinfunction="GH_GND@1" pintype="passive"/>
+      <node ref="P1" pin="9" pinfunction="GRN-" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U0" pin="4" pinfunction="GROUND" pintype="power_in"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="34" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="47" pinfunction="GND" pintype="output"/>
+      <node ref="U1" pin="50" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U1" pin="51" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U1" pin="52" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="53" pinfunction="PROGRAM" pintype="input"/>
+      <node ref="U1" pin="54" pinfunction="ON_OFF" pintype="input"/>
+      <node ref="U1" pin="58" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="59" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="64" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="GROUND" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="GROUND" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="GROUND" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="10" pinfunction="*PWM" pintype="input"/>
+      <node ref="U8" pin="14" pinfunction="SGND" pintype="power_in"/>
+      <node ref="U8" pin="15" pinfunction="SGND" pintype="power_in"/>
+      <node ref="U8" pin="16" pinfunction="SGND" pintype="power_in"/>
+      <node ref="U8" pin="17" pinfunction="SGND" pintype="power_in"/>
+      <node ref="U8" pin="18" pinfunction="SYNC" pintype="input"/>
+      <node ref="U8" pin="4" pinfunction="PGND" pintype="unspecified"/>
+      <node ref="U8" pin="5" pinfunction="PGND" pintype="unspecified"/>
+      <node ref="U8" pin="6" pinfunction="PGND" pintype="unspecified"/>
+      <node ref="U8" pin="7" pinfunction="PGND" pintype="unspecified"/>
+    </net>
+    <net code="61" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="unspecified"/>
+      <node ref="D1" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="unspecified"/>
+      <node ref="D2" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="unspecified"/>
+      <node ref="D1" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="unspecified"/>
+      <node ref="D2" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(C27-Pad2)">
+      <node ref="C27" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(J4-Pin_1)">
+      <node ref="D3" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MOSFET0" pin="3" pinfunction="DRAIN" pintype="unspecified"/>
+    </net>
+    <net code="67" name="Net-(J11-Pin_1)">
+      <node ref="D4" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MOSFET3" pin="3" pinfunction="DRAIN" pintype="unspecified"/>
+    </net>
+    <net code="68" name="Net-(J12-Pin_1)">
+      <node ref="D5" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MOSFET6" pin="3" pinfunction="DRAIN" pintype="unspecified"/>
+    </net>
+    <net code="69" name="Net-(J13-Pin_1)">
+      <node ref="D6" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MOSFET9" pin="3" pinfunction="DRAIN" pintype="unspecified"/>
+    </net>
+    <net code="70" name="Net-(J14-Pin_1)">
+      <node ref="D7" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MOSFET1" pin="3" pinfunction="DRAIN" pintype="unspecified"/>
+    </net>
+    <net code="71" name="Net-(J15-Pin_1)">
+      <node ref="D8" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MOSFET4" pin="3" pinfunction="DRAIN" pintype="unspecified"/>
+    </net>
+    <net code="72" name="Net-(J16-Pin_1)">
+      <node ref="D9" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MOSFET7" pin="3" pinfunction="DRAIN" pintype="unspecified"/>
+    </net>
+    <net code="73" name="Net-(J17-Pin_1)">
+      <node ref="D11" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MOSFET2" pin="3" pinfunction="DRAIN" pintype="unspecified"/>
+    </net>
+    <net code="74" name="Net-(J18-Pin_1)">
+      <node ref="D12" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MOSFET5" pin="3" pinfunction="DRAIN" pintype="unspecified"/>
+    </net>
+    <net code="75" name="Net-(J19-Pin_1)">
+      <node ref="D13" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MOSFET8" pin="3" pinfunction="DRAIN" pintype="unspecified"/>
+    </net>
+    <net code="76" name="Net-(P1-RCT)">
+      <node ref="C15" pin="2" pintype="unspecified"/>
+      <node ref="P1" pin="2" pinfunction="TCT" pintype="passive"/>
+      <node ref="P1" pin="5" pinfunction="RCT" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(U1-20_A6_TX5_LRCLK1)">
+      <node ref="U1" pin="42" pinfunction="20_A6_TX5_LRCLK1" pintype="bidirectional"/>
+      <node ref="U7" pin="7" pinfunction="1Y" pintype="output"/>
+    </net>
+    <net code="78" name="Net-(U1-21_A7_RX5_BCLK1)">
+      <node ref="U1" pin="43" pinfunction="21_A7_RX5_BCLK1" pintype="bidirectional"/>
+      <node ref="U7" pin="6" pinfunction="2Y" pintype="output"/>
+    </net>
+    <net code="79" name="Net-(U1-22_A8_CTX1)">
+      <node ref="U1" pin="44" pinfunction="22_A8_CTX1" pintype="bidirectional"/>
+      <node ref="U6" pin="6" pinfunction="2Y" pintype="output"/>
+    </net>
+    <net code="80" name="Net-(U1-23_A9_CRX1_MCLK1)">
+      <node ref="U1" pin="45" pinfunction="23_A9_CRX1_MCLK1" pintype="bidirectional"/>
+      <node ref="U6" pin="7" pinfunction="1Y" pintype="output"/>
+    </net>
+    <net code="81" name="Net-(U5-A)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="82" name="Net-(U5-B)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="83" name="Net-(U5-Y)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="Y" pintype="output"/>
+    </net>
+    <net code="84" name="Net-(U5-Z)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="Z" pintype="output"/>
+    </net>
+    <net code="85" name="Net-(U8-BIAS)">
+      <node ref="C25" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U8" pin="19" pinfunction="BIAS" pintype="unspecified"/>
+    </net>
+    <net code="86" name="Net-(U8-COMP)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U8" pin="13" pinfunction="COMP" pintype="output"/>
+    </net>
+    <net code="87" name="Net-(U8-PWRGD)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U8" pin="11" pinfunction="PWRGD" pintype="output"/>
+    </net>
+    <net code="88" name="Net-(U8-SW)">
+      <node ref="D10" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U8" pin="3" pinfunction="SW" pintype="output"/>
+      <node ref="U8" pin="8" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="89" name="unconnected-(U1-3V3)">
+      <node ref="U1" pin="15" pinfunction="3V3" pintype="power_in+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U1-3V3)_1">
+      <node ref="U1" pin="46" pinfunction="3V3" pintype="output+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U1-VUSB)">
+      <node ref="U1" pin="49" pinfunction="VUSB" pintype="power_out+no_connect"/>
+    </net>
+  </nets>
+</export>
